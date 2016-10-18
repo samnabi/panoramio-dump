@@ -25,6 +25,14 @@ function slug($str, $replace=array(), $delimiter='-') {
 
 $photos = array();
 
+// Create needed directories
+$directories= array('img/original/','img/modified/');
+foreach ($directories as $directory) {
+	if (!file_exists($directory)) {
+		mkdir($directory,0755,true);
+	}
+}
+
 $i = 0;
 while ($i < ceil($qty/100)) {
 	$from = $i*100;
