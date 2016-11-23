@@ -1,3 +1,11 @@
+⚠️ This tool is deprecated
+=======================
+
+Unfortunately, Panoramio has removed access to their `http://www.panoramio.com/map/get_panoramas.php` endpoint. This means that `panoramio-dump` has no way of getting the filenames so it can download the photos.
+
+This repository will stay up for posterity, but it doesn't work anymore. Sorry.
+
+
 Panoramio Dump
 ==============
 
